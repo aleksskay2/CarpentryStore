@@ -1,0 +1,35 @@
+﻿@model CarpentyStore2.Domain.Entities.Door
+<head>
+    <script language="JavaScript">
+var bigsize = "300"; //Размер большой картинки
+var smallsize = "150"; //Размер маленькой картинки
+function changeSizeImage(im) {
+  if(im.height == bigsize) im.height = smallsize;
+  else im.height = bigsize;
+}
+    </script>
+</head> 
+
+   <div class="ViewGood">
+        <p class="body-content" id="defenition" title="Тип двери">
+          @Model.TypeDoor 
+            <div class="item">
+                @if (Model.ImageData != null)
+            {
+                    <div style="margin-right: 20px;"  >
+                        <img class="borderImage" width="200" 
+                             height="300" src="@Url.Action("GetImage", "Home",
+new { Model.DoorId })" />
+                    </div>
+                }
+            </div>
+            <label >Дерево:</label>   <input type="text" title="Вид дерево" readonly id="idForPrice" value=@Model.Tree />
+           <label>Цена:</label>   <input type="text" id="idForPrice" title="Цена за кв.м"
+                   readonly value=@Model.Price.ToString("c")/> &#8381;
+        </p>
+    </div>
+
+
+
+
+

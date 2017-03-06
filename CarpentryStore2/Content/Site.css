@@ -1,0 +1,235 @@
+﻿body {
+    padding-top: 0px;   
+}
+
+/*Шрифт для главной страницы*/
+.FontDoor{
+    color:#9a2d03;
+    text-align:center;
+    font-size:200%;
+    margin-bottom: 10px;
+    margin-top:5px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+   
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Для вернего заголовка*/
+.ShopH2{
+    background-color: #d5ecd3;
+    height:1em;
+    color: #3a12dc;   
+    font-weight: bold;
+    text-align: center;
+    padding-bottom :3px; 
+    margin: 1px;
+    border:2px solid ; 
+    font-size:21px;
+    border-radius:5px 5px 5px 5px;	
+}
+
+
+#Mymenu{         
+          margin:0px;		  
+		  list-style-type: none;
+		  border: 2px solid #bb2658;
+		  border-radius: 20px 5px;		  		 
+          padding-left:10em;
+		  background-color: #d5ecd3;
+}
+
+/*Граница для фото*/
+.borderImage{
+              border: 20px solid white;
+            }
+
+/*Для улучшения текста описания.*/
+#defenition{
+   background-color:#34646f;
+   color:white;
+  
+}
+
+/*Для фотографии*/
+img:hover{
+    cursor:pointer;
+}
+
+ .foc {
+            width: 150px;
+            cursor: pointer;
+            display: inline;
+        }
+
+            .foc:focus {
+                width: auto;
+                z-index: 100;
+            }
+
+
+/*Текст для пункта Дерево*/
+.TextTree{
+    font-size:120%;
+    text-align:justify;
+   
+}
+
+.ViewGood{
+    font-size :20px;
+    font-weight: bold;
+    border-bottom:solid white;    
+}
+
+/*Для цены*/
+#idForPrice{
+    width:12%;
+    margin-left: .5em;
+    font-size:80%;
+    margin-right: 0px;
+    margin-top:10px;
+}
+
+.Mylabel {
+   
+    
+}
+
+/* Для вертикального меню.*/
+DIV#categories 
+{ 
+  float: left; 
+  width:15%;
+  min-width:130px;
+
+  padding: 0px;
+  height:130em;
+  background-color: #d5ecd3;
+  margin-right :30px;
+  border-left:2px solid #bb2658;
+  border-right:2px solid #bb2658;
+  border-bottom:2px solid #bb2658;
+     
+  text-decoration-line:underline;
+  margin-left:0px;
+} 
+
+
+div#categories a{
+    text-decoration: none;
+    padding: 0px; 
+    color: #9b2f2f;
+    border-bottom:1px #9b2f2f  solid;
+}
+
+div#categories li {
+    
+    list-style-type:none;
+    font-weight: bold;
+    font-size:25px;	 
+    
+}
+
+div#categories ul{
+    padding:10px;
+}
+#MymenuVert a{
+    text-decoration: none;
+}
+
+/*Создание горизонтального меню. */
+#navbar li 
+             { 
+               display: inline;
+	           padding: 0px;
+              }
+			  
+	#navbar {
+		  margin: 0;
+		  padding: 0;
+		  list-style-type: none;
+		  border: 2px solid #bb2658;
+		  border-radius: 20px 5px;		  
+		  text-align: center;
+		  background-color: #d5ecd3;
+		}
+		
+		#navbar a {
+		  color: #9b2f2f;
+		  padding: 5px 0px;
+		  text-decoration: none;
+		  font-weight: bold;
+		  font-size:25px;		  
+		  display: inline-block;
+		  width: 15%;
+		  
+		}
+		#navbar a:hover {
+		 
+		  background-color: rgb(202, 185, 183);
+		}
+
+/*Создание подменю */
+   #submenu{
+            margin-left:350px;
+            background-color:red;
+            width:100px;
+        }
+
+
+.Contur {
+    margin: 0px;
+    background-color:#d4e7ef;
+    height:114em;
+}
+ 
+
+
+DIV.pager A 
+{ 
+  font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial; 
+} 
+
+
+DIV.pager 
+{ 
+  text-align: right; 
+  border-top: 2px solid silver; 
+  padding: .5em 0 0 0; 
+  margin-top: 1em; 
+} 
+ 
+  DIV.pager A 
+  { 
+    font-size: 1.1em; 
+    color: #666; 
+    text-decoration: none; 
+    padding: 0 .4em 0 .4em; 
+  } 
+ 
+    DIV.pager A:hover 
+    { 
+      background-color: Silver; 
+    } 
+ 
+    DIV.pager A.selected 
+    { 
+      background-color: red; 
+      color: white; 
+    } 
